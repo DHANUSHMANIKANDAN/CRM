@@ -1,0 +1,70 @@
+.analytics-funnel-card {
+  margin-bottom: 24px;
+}
+
+.analytics-funnel-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.analytics-funnel-header .view-section-title {
+  margin-bottom: 4px;
+}
+
+.analytics-funnel-header .view-section-subtitle {
+  margin: 0;
+}
+
+.analytics-funnel-total {
+  flex-shrink: 0;
+  padding: 6px 10px;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-full);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.analytics-funnel-chart {
+  width: 100%;
+  height: 380px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.analytics-funnel-conversions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 18px;
+  color: var(--text-faint);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.analytics-funnel-conversions strong {
+  color: var(--text-main);
+}
+
+.analytics-funnel-empty {
+  padding: 48px 16px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .analytics-funnel-header {
+    flex-direction: column;
+  }
+
+ 
+}
+
+.funnel-chart-container{
+  width: 70%;
+  height: 350px;
+}
